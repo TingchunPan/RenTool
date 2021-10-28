@@ -1,0 +1,12 @@
+export const REQ_SIGNIN = 'REQ_SIGNIN';
+export const SUCCESS_SIGNIN = 'SUCCESS_SIGNIN';
+export const FAIL_SIGNIN = 'FAIL_SIGNIN';
+
+export const SUCCESS_SIGNOUT = 'SUCCESS_SIGNOUT';
+
+export const FAIL_REGISTER = ' FAIL_REGISTER';
+export const REQ_REGISTER = 'REQ_REGISTER';
+export const SUCCESS_REGISTER = 'SUCCESS_REGISTER';
+
+
+
