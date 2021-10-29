@@ -38,10 +38,13 @@ app.use('/api/products', productRouter);
 const __dirname = path.resolve();
 app.use('/imageUpload', express.static(path.join(__dirname, 'imageUpload')));
 
-app.get('/', (req, res) => {
-  res.send('The server is working');
-});
-
+// app.get('/', (req, res) => {
+//   res.send('The server is working');
+// });
+app.use(express.static(path.join(__dirname, '/frontend/build')));
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+);
 
 
 const port = process.env.PORT || 5000;
