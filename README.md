@@ -10,3 +10,5 @@ mongoose. Aside from that, the project would be tested to be robust and stable t
 Finally, the chapter of evaluation through surveys taken by potential users, and discussion
 would be presented and analyzed this application to explore its achievement, improvement, and
 development for the future. 
+
+Please check out the demo here: https://my-rentool-app.herokuapp.com/
