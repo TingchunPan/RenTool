@@ -28,7 +28,7 @@ export default function HomeScreen() {
 
       <Carousel autoplay className="custom-slider">
         <img
-          src="https://rentool-bucket.s3.eu-west-2.amazonaws.com/twitter_header_photo_2.png"
+          src="https://img.freepik.com/premium-vector/drought-desert-scence_1308-18126.jpg?w=1480"
           height="250"
           alt="RenTool"
         />
